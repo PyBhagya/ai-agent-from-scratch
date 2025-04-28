@@ -1,2 +1,76 @@
-# ai-agent-from-scratch
-This repository tracks my learning journey of building an AI Agent from scratch in Python by following TechWithTim's YouTube tutorial. It includes structured code, notes, and improvements based on the project that uses Python, LangChain, LLMs like GPT/Claude, and tool integration.
+# AI Agent From Scratch 🚀
+
+This repository documents my learning journey of creating an AI agent in Python, based on [TechWithTim's YouTube tutorial](https://www.youtube.com/@TechWithTim).  
+It walks through building a research assistant that uses Large Language Models (LLMs) like OpenAI's GPT and Anthropic's Claude, along with external tools like Wikipedia Search and DuckDuckGo.
+
+---
+
+## 🛠 Features
+- Setup of virtual environment and project structure
+- Usage of LLMs (GPT, Claude) via LangChain
+- Tool integrations:
+  - Wikipedia API
+  - DuckDuckGo Search
+  - Custom tools (e.g., save output to file)
+- Structured and formatted outputs using Pydantic models
+- Error handling and robustness
+
+---
+
+## 📂 Project Structure
+```bash
+/ai-agent-from-scratch
+|
+|├— main.py          # Main logic for running the AI Agent
+|├— tools.py         # Definitions of custom and external tools
+|├— .env             # Environment variables for API keys
+|└— requirements.txt # Project dependencies
+```
+
+---
+
+## 📊 Requirements
+- Python 3.10+
+- Visual Studio Code (recommended)
+- API Keys (OpenAI or Anthropic Claude)
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate    # On Mac/Linux
+venv\Scripts\activate       # On Windows
+```
+
+---
+
+## ⚙️ How to Run
+1. Add your API keys in `.env` file:
+   ```
+   OPENAI_API_KEY=your-openai-api-key
+   ANTHROPIC_API_KEY=your-anthropic-api-key
+   ```
+2. Run the project:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## 📚 References
+- [TechWithTim YouTube Channel](https://www.youtube.com/@TechWithTim)
+- [LangChain Documentation](https://docs.langchain.dev/)
+
+---
+
+## 🌟 Future Improvements
+- Add more tools like YouTube Search, Arxiv Search.
+- Enable file upload and multiple queries.
+- Explore agent memory (saving chat history).
+
+---
+
