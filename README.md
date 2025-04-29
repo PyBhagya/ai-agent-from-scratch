@@ -6,6 +6,7 @@ It walks through building a research assistant that uses Large Language Models (
 ---
 
 ## 🛠 Features
+
 - Setup of virtual environment and project structure
 - Usage of LLMs (GPT, Claude) via LangChain
 - Tool integrations:
@@ -18,6 +19,7 @@ It walks through building a research assistant that uses Large Language Models (
 ---
 
 ## 📂 Project Structure
+
 ```bash
 /ai-agent-from-scratch
 |
@@ -30,6 +32,7 @@ It walks through building a research assistant that uses Large Language Models (
 ---
 
 ## 📊 Requirements
+
 - Python 3.10+
 - Visual Studio Code (recommended)
 - API Keys (OpenAI or Anthropic Claude)
@@ -49,8 +52,9 @@ venv\Scripts\activate       # On Windows
 ---
 
 ## ⚙️ How to Run
+
 1. Add your API keys in `.env` file:
-   ```
+   ```text
    OPENAI_API_KEY=your-openai-api-key
    ANTHROPIC_API_KEY=your-anthropic-api-key
    ```
@@ -62,15 +66,19 @@ venv\Scripts\activate       # On Windows
 ---
 
 ## 📚 References
+
 - [TechWithTim YouTube Channel](https://www.youtube.com/@TechWithTim)
 - [LangChain Documentation](https://docs.langchain.dev/)
 
 ---
 
 ## 🌟 Future Improvements
+
 - Add more tools like YouTube Search, Arxiv Search.
 - Enable file upload and multiple queries.
 - Explore agent memory (saving chat history).
 
 ---
 
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
