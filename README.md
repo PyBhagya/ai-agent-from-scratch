@@ -79,6 +79,3 @@ venv\Scripts\activate       # On Windows
 - Explore agent memory (saving chat history).
 
 ---
-
-git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
