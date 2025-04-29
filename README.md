@@ -67,23 +67,33 @@ This repository documents my learning journey of creating an AI agent in Python,
 
 2. **Create and activate a virtual environment**:
    ```bash
+   # On Windows
    python -m venv venv
+
+   # On Windows
+   venv\Scripts\activate
+
+   # On Mac/Linux
+   python3 -m venv venv
    
    # On Mac/Linux
    source venv/bin/activate
-   
-   # On Windows
-   venv\Scripts\activate
    ```
 
 3. **Install dependencies**:
    ```bash
+   # On Windows
    pip install -r requirements.txt
+
+   # On Mac/Linux
+   pip3 install -r requirements.txt
    ```
 
 4. **Set up environment variables**:
    Create a `.env` file in the project root with your API key:
    ```
+   OPENAI_API_KEY=your-openai-api-key
+   ANTHROPIC_API_KEY=your-anthropic-api-key
    GEMINI_API_KEY=your-gemini-api-key
    ```
 
@@ -100,7 +110,11 @@ This repository documents my learning journey of creating an AI agent in Python,
 
 2. **Run the command-line interface**:
    ```bash
+   # On Windows
    python main.py
+
+   # On Mac/Linux
+   python3 main.py 
    ```
 
    OR
@@ -173,6 +187,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 <div align="center">
-  <p>Built with ❤️ by <a href="https://github.com/yourusername">Your Name</a></p>
+  <p>Built with ❤️ by <a href="https://github.com/PyBhagya">PyBhagya</a></p>
 </div>
 
