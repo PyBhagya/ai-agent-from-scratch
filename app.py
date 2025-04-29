@@ -3,6 +3,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from pydantic import BaseModel
 from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain_mistralai import ChatMistralAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain.agents import create_tool_calling_agent, AgentExecutor
@@ -51,6 +52,10 @@ def generate_research(query):
         model="gemini-1.5-pro", 
         google_api_key=os.getenv("GEMINI_API_KEY")
     )
+     # llm = ChatMistralAI(
+    #     model="mistral-large-latest", 
+    #     mistral_api_key =os.getenv("MISTRAL_API_KEY"),
+    # )
     
     # Set up the parser
     parser = PydanticOutputParser(pydantic_object=ResearchResponse)

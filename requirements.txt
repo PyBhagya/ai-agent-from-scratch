@@ -5,6 +5,7 @@ langchain-community
 langchain-openai
 langchain-anthropic
 langchain_google_genai
+langchain_mistralai
 python-dotenv
 pydantic
 duckduckgo-search
